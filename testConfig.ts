@@ -1,5 +1,5 @@
 export const testConfig = {
-    qa: `http://192.168.100.224:81/`,
+    qa: `https://web-admin.yescarauto.com/login`,
     dev: ``,
     qaApi: `https://reqres.in`,
     devApi: ``,
