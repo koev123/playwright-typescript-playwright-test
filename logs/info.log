@@ -1,0 +1,337 @@
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Login button in Main page"}
+{"level":"info","message":"Executing Step : Login to Book Store application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Profile page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Login button in Main page"}
+{"level":"info","message":"Executing Step : Login to Book Store application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Profile page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"error","message":"Error: Project(s) \"Chrome\" not found. Available projects: \"Chromium\", \"Chromium\", \"Firefox\", \"Edge\", \"WebKit\", \"Device\", \"DB\", \"API\""}
+{"level":"error","message":"Error: Project(s) \"Chrome\" not found. Available projects: \"Chromium\", \"Chromium\", \"Firefox\", \"Edge\", \"WebKit\", \"Device\", \"DB\", \"API\""}
+{"level":"error","message":"Error: Project(s) \"Chrome\" not found. Available projects: \"Chromium\", \"Chromium\", \"Firefox\", \"Edge\", \"WebKit\", \"Device\", \"DB\", \"API\""}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : interrupted"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : interrupted"}
+{"level":"info","message":"Test Case Started : Verify"}
+{"level":"info","message":"Test Case Started : Verify"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Create User Page"}
+{"level":"info","message":"Test Case Started : Verify Create User Page"}
+{"level":"info","message":"Test Case Completed : Verify Create User Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Create User Page Status : interrupted"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"error","message":"Error: Project(s) \"Chromnpx\" not found. Available projects: \"Chromium\", \"Chromium\", \"Firefox\", \"Edge\", \"WebKit\", \"Device\", \"DB\", \"API\""}
+{"level":"error","message":"Error: Project(s) \"Chromnpx\" not found. Available projects: \"Chromium\", \"Chromium\", \"Firefox\", \"Edge\", \"WebKit\", \"Device\", \"DB\", \"API\""}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Executing Step : Navigate to Baby Outlet Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to Baby  Login page"}
+{"level":"info","message":"Executing Step : Verify Baby Outlet logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : failed"}
