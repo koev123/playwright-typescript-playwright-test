@@ -31,7 +31,14 @@ const config: PlaywrightTestConfig = {
   retries: 0,
 
   //Reporters
-  reporter: [[`./CustomReporterConfig.ts`], [`allure-playwright`], [`html`, { outputFolder: 'html-report', open: 'never' }],['ortoni-report', reportConfig]],
+  reporter: [
+    [`./CustomReporterConfig.ts`],
+    ['list'],
+    [`allure-playwright`], 
+    [`html`, { outputFolder: 'html-report', open: 'never' }],
+    ['ortoni-report', reportConfig]
+    
+  ],
 
   projects: [
     
