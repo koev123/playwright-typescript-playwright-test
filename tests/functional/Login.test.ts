@@ -1,9 +1,9 @@
-import test from '@lib/BaseTest';
+import test from '../../lib/BaseTest';
 
 // Assuming the LoginPage type is imported or defined elsewhere in the project
 // Adding a mock implementation for verifyLogoIsVisible to resolve the issue
 
-test('Verify Baby Outlet Login', { tag: '@Smoke' }, async ({ loginPage }) => {
+test('Verify Baby Outlet Login', { tag: '@Smoke' }, async({ loginPage }) => {
 
   await test.step('Navigate to web-admin  Login page', async () => {
     await loginPage.navigateToURL();

@@ -4,7 +4,6 @@
   "description": "Playwright Framework with Typescript",
   "main": "index.js",
   "scripts": {
-
     "test": "npx playwright test",
     "test:single": "npx playwright test Login.test.ts --project=Chromium",
     "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
@@ -33,6 +32,7 @@
     "@typescript-eslint/parser": "^8.3.0",
     "allure-playwright": "^3.0.1",
     "crypto-js": "^4.2.0",
+    "es6-promise": "^4.2.8",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "exceljs": "^4.4.0",
