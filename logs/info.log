@@ -377,3 +377,36 @@
 {"level":"info","message":"Executing Step : Click on Login button"}
 {"level":"info","message":"Executing Step : Verify user is successfully logged in"}
 {"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"error","message":"Error: Cannot find module '@lib/CreateUserPage'\nRequire stack:\n- C:\\Users\\Song Koev\\OneDrive\\Desktop\\Playwrite\\playwright-typescript-playwright-test\\tests\\functional\\CreateUser.test.ts\n- C:\\Users\\Song Koev\\OneDrive\\Desktop\\Playwrite\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\Song Koev\\OneDrive\\Desktop\\Playwrite\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\common\\configLoader.js\n- C:\\Users\\Song Koev\\OneDrive\\Desktop\\Playwrite\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\program.js\n- C:\\Users\\Song Koev\\OneDrive\\Desktop\\Playwrite\\playwright-typescript-playwright-test\\node_modules\\@playwright\\test\\cli.js"}
