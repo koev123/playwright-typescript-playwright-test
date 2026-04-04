@@ -1,81 +1,65 @@
-import test from '@lib/BaseTest';
-import CreateUserPage from '@lib/CreateUserPage';
+import test from '../../lib/BaseTest';
+import { CreateUserPage } from '../../pageFactory/pageRepository/CreateUserPage';
 
-test(
-  'Verify Create User Page',
-  { tag: '@Smoke' },
-  async ({ page, loginPage, webActions }) => {
-    const createUserPage = new CreateUserPage(page);
+test('Create User - Navigate to Add New User Page', async ({ page, context }) => {
+  
 
-    // 1️⃣ Login
-    await loginPage.navigateToURL();
+  // 1️⃣ Navigate to the real web-admin login page
+  await test.step('Navigate to Login Page', async () => {
+    // Replace this with your real QA URL
+    await page.goto('https://web-admin.yescarauto.com/login');
+    await page.waitForLoadState('networkidle'); // Wait until network is idle
+  });
 
-    // 2️⃣ Navigate to Security → User
-    await webActions.clickByText('Security');
-    await webActions.clickByText('User');
+  // 2️⃣ Login step
+  await test.step('Login to system', async () => {
+    // Wait until username input is visible before filling
+    await page.waitForSelector('#username', { state: 'visible' });
+    await page.fill('#username', 'koev'); // Replace with actual username
+    await page.fill('#password', 'koev@123'); // Replace with actual password
+    await page.click('button[type="submit"]');
 
-    // 3️⃣ Verify Create User page loaded
-    await createUserPage.verifyCreateUserPageLoaded();
+    // Optional: wait until the dashboard or Users module is loaded
+  //  await page.waitForSelector('#welcome-page', { state: 'visible', timeout: 60000 });
+  });
 
-    // 4️⃣ Enter User Information
-    await createUserPage.enterUserInformation(
-      'koevom',
-      'Password@123',
-      'Koev Om'
-    );
+  // 3️⃣ Navigate to Users > Add New
+  await test.step('Navigate to Add New User Page', async () => {
+    // Click User Management
+    await page.getByRole('button', { name: /User Management/i }).click();
+    await page.getByRole('button', { name: /User/i }).click();
 
-    // 5️⃣ Select Group
-    await createUserPage.selectDropdownOption(
-      createUserPage.GROUP_DROPDOWN,
-      'Admin'
-    );
+    // Click User submenu (adjust text if needed)
+    // await page.getByText('User', { exact: true }).click();
 
-    // 6️⃣ Select Role
-    await createUserPage.selectDropdownOption(
-      createUserPage.ROLES_DROPDOWN,
-      'Manager'
-    );
+    // // Click Add New button
+    await page.locator('//button[contains(., "Add New")]').click();
 
-    // 7️⃣ Select Admin Portal = No
-    await createUserPage.selectDropdownOption(
-      createUserPage.ADMIN_PORTAL_DROPDOWN,
-      'No'
-    );
+    // instantiate page object
+    const createUserPage = new CreateUserPage(page, context);
 
-    // 8️⃣ Select POS = No
-    await createUserPage.selectDropdownOption(
-      createUserPage.POS_DROPDOWN,
-      'No'
-    );
+    await page.getByRole('textbox', { name: 'Enter Staff ID' }).click();
+    await page.getByRole('textbox', { name: 'Enter Staff ID' }).fill('wow');
+    await page.getByRole('textbox', { name: 'Enter Full Name' }).click();
+    await page.getByRole('textbox', { name: 'Enter Full Name' }).fill('test');
+    await page.getByRole('textbox', { name: 'Enter Username' }).click();
+    await page.getByRole('textbox', { name: 'Enter Username' }).fill('test');
+    await page.getByRole('textbox', { name: 'Enter Phone Number' }).click();
+    await page.getByRole('textbox', { name: 'Enter Phone Number' }).fill('09866655');
+    await page.getByRole('textbox', { name: 'Enter Email' }).click();
+    await page.getByRole('textbox', { name: 'Enter Email' }).fill('email@gmail.com');
+    await page.locator('.multiselect__tags').first().click();
+    await page.locator('div:nth-child(6)').first().click();
+    await page.getByRole('textbox', { name: 'Password', exact: true }).click();
+    await page.getByRole('textbox', { name: 'Password', exact: true }).fill('12345678');
+    await page.getByRole('textbox', { name: 'Confirm password' }).click();
+    await page.getByRole('textbox', { name: 'Confirm password' }).fill('12345678');
+    await page.getByText('Super Admin').click();
+    await page.getByText('Web Manager').click();
+    await page.getByRole('button', { name: 'Saveqq' }).click();
+    
+   
+  });
 
-    // 9️⃣ Select Status = Active
-    await createUserPage.selectDropdownOption(
-      createUserPage.STATUS_DROPDOWN,
-      'Active'
-    );
 
-    // 🔟 Enter Profile Information
-    await createUserPage.enterProfileInformation(
-      'Koev Om',
-      '1998-01-01',
-      '+85512345678',
-      'koev@test.com',
-      'QA Engineer'
-    );
-
-    // 1️⃣1️⃣ Select Gender
-    await createUserPage.selectDropdownOption(
-      createUserPage.GENDER_DROPDOWN,
-      'Other'
-    );
-
-    // 1️⃣2️⃣ Select Store / Warehouse
-    await createUserPage.selectDropdownOption(
-      createUserPage.STORE_WAREHOUSE_DROPDOWN,
-      'All Store & Warehouse'
-    );
-
-    // 1️⃣3️⃣ Save user
-    await createUserPage.clickSave();
-  }
-);
+});

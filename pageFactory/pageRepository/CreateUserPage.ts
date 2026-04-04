@@ -2,42 +2,41 @@ import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { WebActions } from "@lib/WebActions";
 import { testConfig } from '../../testConfig';
 
-let webActions: WebActions;
 
 export class CreateUserPage {
     readonly page: Page;
     readonly context: BrowserContext;
-    readonly USERNAME_EDITBOX: Locator;
-    readonly PASSWORD_EDITBOX: Locator;
-    readonly LOGIN_BUTTON: Locator;
-    readonly BOOKS_SEARCH_BOX: Locator;
+    readonly webActions: WebActions;
+
+    readonly STAFFID_EDITBOX;
+    readonly FULLNAME_EDITBOX;
+    readonly USERNAME_EDITBOX;
+    readonly PHONENUMBER_EDITBOX;
+    readonly EMAIL_EDITBOX;
+    readonly GENDER_SELECT;
+    readonly PASSWORD_EDITBOX;
+    readonly DEPARTMENT_SELECT;
+    readonly STATUS_SELECT;
+    readonly CONFIRMPASSWORD_EDITBOX;
+    readonly ROLE_CHECKBOX;
 
     constructor(page: Page, context: BrowserContext) {
         this.page = page;
         this.context = context;
-        webActions = new WebActions(this.page, this.context);
-        this.USERNAME_EDITBOX = page.locator('#userName');
+        this.webActions = new WebActions(this.page, this.context);
+
+        this.STAFFID_EDITBOX = page.locator('#staffId');
+        this.FULLNAME_EDITBOX = page.locator('#fullName');
+        this.USERNAME_EDITBOX = page.getByPlaceholder('Enter Username');
+        this.PHONENUMBER_EDITBOX = page.locator('#phoneNumber');
+        this.EMAIL_EDITBOX = page.locator('#email');
+        this.GENDER_SELECT = page.getByPlaceholder('Select Gender');
         this.PASSWORD_EDITBOX = page.locator('#password');
-        this.LOGIN_BUTTON = page.getByRole('button', { name: 'Login' });
-        this.BOOKS_SEARCH_BOX = page.getByPlaceholder('Type to search');
+        this.DEPARTMENT_SELECT = page.getByPlaceholder('Select Department');
+        this.STATUS_SELECT = page.locator('[data-status="active"]');
+        this.CONFIRMPASSWORD_EDITBOX = page.locator('#confirmPassword');
+        this.ROLE_CHECKBOX = page.getByRole('checkbox', { name: 'supser admmin' });
     }
 
-    async navigateToURL(): Promise<void> {
-        await this.page.goto("/");
-    }
-
-    async clickOnLoginMainButton(): Promise<void> {
-        await this.LOGIN_BUTTON.click();
-    }
-
-    async loginToApplication(): Promise<void> {
-        const decipherPassword = await webActions.decipherPassword();
-        await this.USERNAME_EDITBOX.fill(testConfig.username);
-        await this.PASSWORD_EDITBOX.fill(decipherPassword);
-        await this.LOGIN_BUTTON.click();
-    }
-
-    async verifyProfilePage(): Promise<void> {
-        await expect(this.BOOKS_SEARCH_BOX).toBeVisible();
-    }
+    
 }

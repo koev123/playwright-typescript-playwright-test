@@ -59,5 +59,4 @@ test('Verify Baby Outlet Login', { tag: '@Smoke' }, async({ loginPage }) => {
     await (loginPage as any).verifyUserLoggedIn();
   });
 
-  
 });

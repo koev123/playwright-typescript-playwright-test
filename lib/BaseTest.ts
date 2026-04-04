@@ -1,5 +1,6 @@
 import { TestInfo, test as baseTest } from '@playwright/test';
 import { LoginPage } from '@pages/LoginPage';
+import { CreateUserPage } from '@pages/CreateUserPage';
 import {ElementsPage} from '@pages/ElementsPage';
 import { AlertsFrameWindowsPage } from '@pages/AlertsFrameWindowsPage';
 import { WidgetsPage } from '@pages/WidgetsPage';
@@ -10,6 +11,8 @@ import AxeBuilder from '@axe-core/playwright';
 const test = baseTest.extend<{
     webActions: WebActions;
     loginPage: LoginPage;
+     CreateUserPage: CreateUserPage;
+    ElementsPage:ElementsPage;
     elementsPage: ElementsPage;
     alertsFrameWindowsPage: AlertsFrameWindowsPage;
     widgetsPage: WidgetsPage;
@@ -21,6 +24,9 @@ const test = baseTest.extend<{
         await use(new WebActions(page, context));
     },
     loginPage: async ({ page, context }, use) => {
+        await use(new LoginPage(page, context));
+    },
+    CreateUserPage: async ({ page, context }, use) => {
         await use(new LoginPage(page, context));
     },
     elementsPage: async ({ page, context }, use) => {
