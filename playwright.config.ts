@@ -1,12 +1,17 @@
+/// <reference types="node" />
 import { PlaywrightTestConfig, devices } from '@playwright/test';
 import { testConfig } from './testConfig';
 import { OrtoniReportConfig } from 'ortoni-report';
 
-const ENV = process.env.npm_config_ENV || 'qa';
+const validEnvs = ['qa', 'dev', 'qaApi', 'devApi'] as const;
+type EnvName = (typeof validEnvs)[number];
 
-if (![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
+let env = process.env.npm_config_ENV as string | undefined;
+if (!validEnvs.includes(env as EnvName)) {
   console.log(`Invalid environment value provided. Defaulting to "qa".`);
+  env = 'qa';
 }
+const ENV: EnvName = env as EnvName;
 
 const reportConfig: OrtoniReportConfig = {
   base64Image: true,

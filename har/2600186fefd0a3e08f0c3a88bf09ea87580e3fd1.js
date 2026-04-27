@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkweb_admin"]=self["webpackChunkweb_admin"]||[]).push([[8712],{8712:function(n,e,u){u.r(e),u.d(e,{default:function(){return c}});var t=function(){var n=this,e=n._self._c;return e("div",[e("router-view")],1)},r=[],a={name:"LoginLayout",data(){return{}}},i=a,l=u(81656),s=(0,l.A)(i,t,r,!1,null,null,null),c=s.exports}}]);
+//# sourceMappingURL=8712.50b4ecb4.js.map

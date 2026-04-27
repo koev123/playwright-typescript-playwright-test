@@ -727,3 +727,227 @@
 {"level":"info","message":"Executing Step : Click on Login button"}
 {"level":"info","message":"Executing Step : Verify user is successfully logged in"}
 {"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : @API getUsersToken"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Completed : @API getUsersToken Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : @API getUsersToken"}
+{"level":"info","message":"Test Case Completed : @API getUsersToken Status : failed"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : interrupted"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : @API getUsersToken"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Completed : @API getUsersToken Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Executing Step : Navigate to web-admin  Login page"}
+{"level":"info","message":"Executing Step : Verify web-admin logo is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on Login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to Login Page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Baby Outlet Login"}
+{"level":"info","message":"Test Case Completed : Verify Baby Outlet Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}

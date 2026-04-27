@@ -27,7 +27,7 @@ const test = baseTest.extend<{
         await use(new LoginPage(page, context));
     },
     CreateUserPage: async ({ page, context }, use) => {
-        await use(new LoginPage(page, context));
+        await use(new CreateUserPage(page, context));
     },
     elementsPage: async ({ page, context }, use) => {
         await use(new ElementsPage(page, context));

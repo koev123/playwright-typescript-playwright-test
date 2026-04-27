@@ -14,6 +14,6 @@ test(`postUsers`, { tag: '@API'}, async ({ request }) => {
     await apiActions.verifyResponseBody(responseBodyParams, await response.json(), `Response Body`);
 
     const responseBodyHeaders = (await apiActions.readValuesFromTextFile(`postUsers`)).split(`#`)[2];
-    await apiActions.verifyResponseHeader(responseBodyHeaders, response.headersArray(), `Respomse Headers`);
+    await apiActions.verifyResponseHeader(responseBodyHeaders, response.headersArray(), `Response Headers`);
 });
 
