@@ -4,20 +4,12 @@
   "description": "Playwright Framework with Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:single": "npx playwright test Login.test.ts --project=Chromium",
-    "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
-    "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
-    "test:ui": "npx playwright test --grep @Smoke --ui",
-    "test:api": "npx playwright test --grep @API --workers=1 --project=Chrome",
-    "test:db": "npx playwright test DB.test.ts --project=DB",
-    "test:record": "npx playwright codegen",
-    "test:visual": "npx playwright test visualComparision.test.ts --project=Chrome",
-    "test:device": "npx playwright test Emulation.test.ts --project=Device",
-    "allureReport": "allure serve",
-    "lighthouse": "node tests/lighthouse/Lighthouse.js",
-    "test:accessibility": "npx playwright test Axe.test.ts --project=Chrome"
-  },
+  "test": "npx playwright test",
+  "test:single": "npx playwright test Login.test.ts --project=Chromium",
+  "report:html": "npx playwright show-report",
+  "allure:generate": "allure generate allure-results -o allure-report --clean",
+  "allure:open": "allure open allure-report"
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/akshayp7/playwright-typescipt-playwright-test.git"

@@ -39,15 +39,15 @@ test('Create User - Navigate to Add New User Page', async ({ page, context }) =>
     const createUserPage = new CreateUserPage(page, context);
 
     await page.getByRole('textbox', { name: 'Enter Staff ID' }).click();
-    await page.getByRole('textbox', { name: 'Enter Staff ID' }).fill('wow');
+    await page.getByRole('textbox', { name: 'Enter Staff ID' }).fill('wow2');
     await page.getByRole('textbox', { name: 'Enter Full Name' }).click();
-    await page.getByRole('textbox', { name: 'Enter Full Name' }).fill('test');
+    await page.getByRole('textbox', { name: 'Enter Full Name' }).fill('test2');
     await page.getByRole('textbox', { name: 'Enter Username' }).click();
-    await page.getByRole('textbox', { name: 'Enter Username' }).fill('test');
+    await page.getByRole('textbox', { name: 'Enter Username' }).fill('test211111');
     await page.getByRole('textbox', { name: 'Enter Phone Number' }).click();
-    await page.getByRole('textbox', { name: 'Enter Phone Number' }).fill('09866655');
+    await page.getByRole('textbox', { name: 'Enter Phone Number' }).fill('098666255');
     await page.getByRole('textbox', { name: 'Enter Email' }).click();
-    await page.getByRole('textbox', { name: 'Enter Email' }).fill('email@gmail.com');
+    await page.getByRole('textbox', { name: 'Enter Email' }).fill('email2@gmail.com');
     await page.locator('.multiselect__tags').first().click();
     await page.locator('div:nth-child(6)').first().click();
     await page.getByRole('textbox', { name: 'Password', exact: true }).click();
@@ -56,10 +56,6 @@ test('Create User - Navigate to Add New User Page', async ({ page, context }) =>
     await page.getByRole('textbox', { name: 'Confirm password' }).fill('12345678');
     await page.getByText('Super Admin').click();
     await page.getByText('Web Manager').click();
-    await page.getByRole('button', { name: 'Saveqq' }).click();
-    
-   
+    await page.getByRole('button', { name: 'Save' }).click();
   });
-
-
 });
