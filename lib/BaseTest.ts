@@ -1,47 +1,27 @@
-import { TestInfo, test as baseTest } from '@playwright/test';
-import { LoginPage } from '@pages/LoginPage';
-import { CreateUserPage } from '@pages/CreateUserPage';
-import {ElementsPage} from '@pages/ElementsPage';
-import { AlertsFrameWindowsPage } from '@pages/AlertsFrameWindowsPage';
-import { WidgetsPage } from '@pages/WidgetsPage';
-import { InteractionsPage } from '@pages/InteractionsPage';
-import { WebActions } from '@lib/WebActions';
+import { TestInfo, test as baseTest, Page, BrowserContext } from '@playwright/test';
+import { CreateUserPage } from '../pageFactory/pageRepository/CreateUserPage';
+import { LoginPage } from '../pageFactory/pageRepository/LoginPage';
+import { WebActions } from './WebActions';
 import AxeBuilder from '@axe-core/playwright';
 
 const test = baseTest.extend<{
     webActions: WebActions;
     loginPage: LoginPage;
      CreateUserPage: CreateUserPage;
-    ElementsPage:ElementsPage;
-    elementsPage: ElementsPage;
-    alertsFrameWindowsPage: AlertsFrameWindowsPage;
-    widgetsPage: WidgetsPage;
-    interactionsPage: InteractionsPage;
     makeAxeBuilder: AxeBuilder;
     testInfo: TestInfo;
 }>({
-    webActions: async ({ page, context }, use) => {
+    webActions: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
         await use(new WebActions(page, context));
     },
-    loginPage: async ({ page, context }, use) => {
+    loginPage: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
         await use(new LoginPage(page, context));
     },
-    CreateUserPage: async ({ page, context }, use) => {
+    CreateUserPage: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
         await use(new CreateUserPage(page, context));
     },
-    elementsPage: async ({ page, context }, use) => {
-        await use(new ElementsPage(page, context));
-    },
-    alertsFrameWindowsPage: async ({ page, context }, use) => {
-        await use(new AlertsFrameWindowsPage(page, context));
-    },
-    widgetsPage: async ({ page, context }, use) => {
-        await use(new WidgetsPage(page, context));
-    },
-    interactionsPage: async ({ page, context }, use) => {
-        await use(new InteractionsPage(page, context));
-    },
-    makeAxeBuilder: async ({ page }, use) => {
+
+    makeAxeBuilder: async ({ page }: { page: Page }, use) => {
         await use(new AxeBuilder({ page })
             .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
             .exclude('#commonly-reused-element-with-known-issue'));

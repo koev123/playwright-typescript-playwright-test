@@ -1,4 +1,4 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import { APIResponse, expect } from '@playwright/test';
 
 export class APIActions {

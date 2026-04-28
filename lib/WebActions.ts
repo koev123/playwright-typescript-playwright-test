@@ -1,4 +1,4 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import * as CryptoJS from 'crypto-js';
 import type { Page } from '@playwright/test';
 import { BrowserContext, expect } from '@playwright/test';
@@ -20,7 +20,8 @@ export class WebActions {
         //ENCRYPT
         // const cipher = CryptoJS.AES.encrypt('Demouat@09',key);
         // console.log(cipher.toString());
-        return CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
+        const decryptedPassword = CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
+        return decryptedPassword || testConfig.password;
     }
 
     async delay(time: number): Promise<void> {

@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2022",
     "ignoreDeprecations": "6.0",
-    "lib": ["es2015", "dom"], 
+    "lib": ["es2022", "dom"],
     "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@pages/*": ["pageFactory/pageRepository/*"],
       "@lib/*": ["lib/*"],
+    
       "@utils/*": ["utils/*"],
       "@tests/*": ["tests/*"]
     }
