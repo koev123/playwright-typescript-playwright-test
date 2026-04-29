@@ -9,9 +9,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pages/*": ["pageFactory/pageRepository/*"],
+      "@pages/*": ["PageFactory/pageRepository/*"],
       "@lib/*": ["lib/*"],
-    
       "@utils/*": ["utils/*"],
       "@tests/*": ["tests/*"]
     }

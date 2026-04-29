@@ -35,6 +35,9 @@ const config: PlaywrightTestConfig = {
   //number of retries if test case fails
   retries: 0,
 
+  // The admin UI account is shared across functional tests and is not stable under parallel logins.
+  workers: 1,
+
   //Reporters
   reporter: [
     [`./CustomReporterConfig.ts`],

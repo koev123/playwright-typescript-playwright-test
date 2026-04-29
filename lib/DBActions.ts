@@ -10,7 +10,7 @@ export class DBActions {
         await pgClient.connect();
     }
 
-    async query(queryString: string): Promise<import('pg').QueryResult<any>> {
+    async query(queryString: string): Promise<void> {
         return pgClient.query(queryString);
     }
 }

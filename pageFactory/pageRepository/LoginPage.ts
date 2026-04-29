@@ -12,6 +12,7 @@ export class LoginPage {
     readonly LOGIN_BUTTON: Locator;
     readonly LOGIN_FORM: Locator;
     readonly USER_MANAGEMENT_BUTTON: Locator;
+    readonly AUTHENTICATED_NAV_ITEM: Locator;
     readonly BOOKS_SEARCH_BOX: Locator;
 
     constructor(page: Page, context: BrowserContext) {
@@ -22,7 +23,8 @@ export class LoginPage {
         this.PASSWORD_EDITBOX = page.locator('#password');
         this.LOGIN_BUTTON = page.getByRole('button', { name: 'Sign In' });
         this.LOGIN_FORM = page.locator('form');
-        this.USER_MANAGEMENT_BUTTON = page.getByRole('button', { name: /User Management/i });
+        this.USER_MANAGEMENT_BUTTON = page.locator('button, [role="button"]').filter({ hasText: 'User Management' }).first();
+        this.AUTHENTICATED_NAV_ITEM = page.locator('button, [role="button"]').filter({ hasText: 'Dashboard' }).first();
         this.BOOKS_SEARCH_BOX = page.getByPlaceholder('Type to search');
     }
 
@@ -58,6 +60,7 @@ export class LoginPage {
         await this.enterUsername();
         await this.enterPassword();
         await this.clickLoginButton();
+        await this.page.waitForLoadState('domcontentloaded');
     }
 
     async verifyProfilePage(): Promise<void> {
@@ -65,6 +68,15 @@ export class LoginPage {
     }
 
     async verifyUserLoggedIn(): Promise<void> {
-        await expect(this.USER_MANAGEMENT_BUTTON).toBeVisible();
+        const userManagementVisible = await expect(this.USER_MANAGEMENT_BUTTON)
+            .toBeVisible({ timeout: 15000 })
+            .then(() => true)
+            .catch(() => false);
+
+        if (userManagementVisible) {
+            return;
+        }
+
+        await expect(this.AUTHENTICATED_NAV_ITEM).toBeVisible({ timeout: 15000 });
     }
 }

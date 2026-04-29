@@ -1418,3 +1418,556 @@
 {"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
 {"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
 {"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : skipped"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
