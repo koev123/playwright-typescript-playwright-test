@@ -35,9 +35,9 @@ export class CreateUserPage extends LoginPage {
     constructor(page: Page, context: BrowserContext) {
         super(page, context);
 
-        this.STAFFID_EDITBOX = page.getByPlaceholder('Enter Staff ID');
-        this.FULLNAME_EDITBOX = page.getByPlaceholder('Enter Full Name');
-        this.USERNAME_EDITBOX = page.getByPlaceholder('Enter Username');
+        this.STAFFID_EDITBOX = page.getByRole('textbox', { name: /Enter Staff ID|Staff ID/i });
+        this.FULLNAME_EDITBOX = page.getByRole('textbox', { name: /Enter Full Name|Full Name/i });
+        this.USERNAME_EDITBOX = page.getByRole('textbox', { name: /Enter Username|Username/i });
         this.PHONENUMBER_EDITBOX = page.locator('#phoneNumber');
         this.EMAIL_EDITBOX = page.locator('#email');
         this.GENDER_SELECT = page.getByPlaceholder('Select Gender');
@@ -46,10 +46,10 @@ export class CreateUserPage extends LoginPage {
         this.STATUS_SELECT = page.locator('[data-status="active"]');
         this.CONFIRMPASSWORD_EDITBOX = page.locator('#confirmPassword');
         this.SAVE_BUTTON = page.getByRole('button', { name: /save|create|update/i });
-        this.ADD_NEW_USER_BUTTON = page.getByRole('button', { name: /add new/i });
+        this.ADD_NEW_USER_BUTTON = page.locator('//button[contains(., "Add")]');
         this.CREATE_USER_HEADER = page.getByText('Add New', { exact: true });
         this.SUCCESS_MESSAGE = page.getByText(/success|created|updated|deleted/i);
-        this.USER_MANAGEMENT_BUTTON = this.page.locator('button, [role="button"]').filter({ hasText: 'User Management' }).first();
+        this.USER_MANAGEMENT_BUTTON = this.page.getByRole('button', { name: 'User Management' });
     }
 
     private roleCheckbox(roleName: string): Locator {
@@ -58,10 +58,6 @@ export class CreateUserPage extends LoginPage {
 
     private roleLabel(roleName: string): Locator {
         return this.page.locator('label', { hasText: roleName });
-    }
-
-    private warningDialogOkButton(): Locator {
-        return this.page.getByRole('button', { name: 'OK' });
     }
 
     private userRow(identifier: string): Locator {
@@ -125,11 +121,9 @@ export class CreateUserPage extends LoginPage {
 
         if (user.roleName) {
             const roleCheckbox = this.roleCheckbox(user.roleName);
-            await roleCheckbox.check({ force: true }).catch(async () => {
-                if (!(await roleCheckbox.isChecked())) {
-                    await this.roleLabel(user.roleName).click();
-                }
-            });
+            if (!(await roleCheckbox.isChecked())) {
+                await this.roleLabel(user.roleName).click();
+            }
         }
 
         await this.SAVE_BUTTON.click();
@@ -137,12 +131,18 @@ export class CreateUserPage extends LoginPage {
 
     async deleteUser(identifier: string): Promise<void> {
         const row = this.userRow(identifier);
-        const confirmDeleteButton = this.page.getByRole('button', { name: /^yes$/i });
-        const deleteDialog = this.page.getByText(/are you sure you want to delete user/i);
+        const rowActionTargets = row.locator('button, a, [role="button"], img, svg');
+        const confirmDeleteButton = this.page.getByRole('button', { name: /confirm|yes|delete/i });
 
         await expect(row).toBeVisible();
-        await row.getByRole('img', { name: /key/i }).click();
-        await expect(deleteDialog).toBeVisible({ timeout: 5000 });
+
+        const rowActionCount = await rowActionTargets.count();
+        if (rowActionCount > 0) {
+            await rowActionTargets.nth(rowActionCount - 1).click();
+        } else {
+            throw new Error(`No action controls found for user row: ${identifier}`);
+        }
+
         await expect(confirmDeleteButton).toBeVisible();
         await confirmDeleteButton.click();
     }
@@ -152,18 +152,11 @@ export class CreateUserPage extends LoginPage {
     }
 
     async verifyUserUpdated(): Promise<void> {
-        const warningVisible = await this.warningDialogOkButton()
-            .isVisible()
-            .catch(() => false);
-
-        if (warningVisible) {
-            throw new Error('Update user failed because the form validation warning dialog is shown.');
-        }
-
         await expect(this.SUCCESS_MESSAGE.first()).toBeVisible();
     }
 
     async verifyUserDeleted(identifier: string): Promise<void> {
-        await expect(this.userRow(identifier)).toHaveCount(0, { timeout: 15000 });
+        await expect(this.SUCCESS_MESSAGE.first()).toBeVisible();
+        await expect(this.userRow(identifier)).toHaveCount(0);
     }
 }

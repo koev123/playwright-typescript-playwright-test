@@ -25,8 +25,7 @@ test('Edit User - Update Existing User Details', async ({ CreateUserPage }) => {
             roleName: 'Super Admin'
         });
         await CreateUserPage.verifyUserCreated();
-    });
-
+    })
     await test.step('Edit the created user', async () => {
         await CreateUserPage.navigateToUserManagementPage();
         await CreateUserPage.editUser(staffId, {
