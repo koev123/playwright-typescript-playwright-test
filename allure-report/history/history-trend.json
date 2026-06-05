@@ -1,1 +1,1 @@
-[{"data":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]
+[{"buildOrder":3,"reportUrl":"http://localhost:8080/job/workpwlocal/3/allure","reportName":"AllureReport","data":{"failed":1,"broken":0,"skipped":4,"passed":6,"unknown":0,"total":11}}]

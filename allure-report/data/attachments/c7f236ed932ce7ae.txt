@@ -1,5 +1,0 @@
-Mock: Verifying logo is visible
-Mock: Entering username
-Mock: Entering password
-Mock: Clicking login button
-Mock: Verifying user is logged in
