@@ -2810,3 +2810,42 @@
 {"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
 {"level":"info","message":"Test Case Started : Verify Elements Page."}
 {"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : skipped"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: test file \"tests\\apitests\\post_api_Request_01_createUser.spac.ts\" should not import test file \"tests\\api\\POST.test.ts\""}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : skipped"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : failed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}

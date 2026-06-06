@@ -25,6 +25,11 @@ const reportConfig: OrtoniReportConfig = {
 }
 
 const config: PlaywrightTestConfig = {
+  testMatch: [
+    '**/*.spec.ts',
+    '**/*.test.ts',
+    '**/*.spac.ts',
+  ],
 
   //Global Setup to run before all tests
   globalSetup: `./global-setup`,
