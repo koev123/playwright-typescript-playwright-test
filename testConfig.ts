@@ -4,7 +4,7 @@ export const testConfig = {
     qaApi: `https://reqres.in`,
     devApi: ``,
     username: `koev`,
-    password: `koev@123`,
+    password: `koevgoodluck`,
     waitForElement: 120000,
     dbUsername: ``,
     dbPassword: ``,

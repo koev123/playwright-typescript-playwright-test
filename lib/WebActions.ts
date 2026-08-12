@@ -17,11 +17,15 @@ export class WebActions {
 
     async decipherPassword(): Promise<string> {
         const key = `SECRET`;
-        //ENCRYPT
-        // const cipher = CryptoJS.AES.encrypt('Demouat@09',key);
-        // console.log(cipher.toString());
-        const decryptedPassword = CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
-        return decryptedPassword || testConfig.password;
+        const password = testConfig.password;
+
+        // If password is stored as plain text, return it directly.
+        if (!password.startsWith('U2FsdGVkX1')) {
+            return password;
+        }
+
+        const decryptedPassword = CryptoJS.AES.decrypt(password, key).toString(CryptoJS.enc.Utf8);
+        return decryptedPassword || password;
     }
 
     async delay(time: number): Promise<void> {

@@ -1,5 +1,6 @@
 import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { LoginPage } from './LoginPage';
+import { testConfig } from '../../testConfig';
 
 type CreateUserInput = {
     staffId: string;
@@ -92,6 +93,8 @@ export class CreateUserPage extends LoginPage {
 
     async createUser(user: CreateUserInput): Promise<void> {
         await this.STAFFID_EDITBOX.fill(user.staffId);
+        await this.page.keyboard.press('Tab');
+        await expect(this.STAFFID_EDITBOX).toHaveValue(user.staffId);
         await this.FULLNAME_EDITBOX.fill(user.fullName);
         await this.USERNAME_EDITBOX.fill(user.username);
         await this.PHONENUMBER_EDITBOX.fill(user.phoneNumber);
@@ -103,6 +106,10 @@ export class CreateUserPage extends LoginPage {
             await this.roleLabel(user.roleName).click();
         }
         await this.SAVE_BUTTON.click();
+        // wait for success message (use generous timeout from config)
+        await expect(this.SUCCESS_MESSAGE.first()).toBeVisible({ timeout: testConfig.waitForElement }).catch(() => {
+            throw new Error('User creation did not produce a success message. Check form validation or save behavior.');
+        });
     }
 
     async editUser(identifier: string, user: EditUserInput): Promise<void> {

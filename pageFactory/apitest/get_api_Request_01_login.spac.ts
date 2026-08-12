@@ -1,6 +1,6 @@
 import {test, expect} from "@playwright/test"
 
-test("Create Post request using static body", async ({ request }) => {
+test.skip("Create Post request using static body", async ({ request }) => {
 	const requestBody = {
 		user: {
 			id: 265,

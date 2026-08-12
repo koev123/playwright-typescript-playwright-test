@@ -11,7 +11,7 @@ export class LoginPage {
     readonly PASSWORD_EDITBOX: Locator;
     readonly LOGIN_BUTTON: Locator;
     readonly DASHBOARD_BUTTON: Locator;
-    readonly WELCOME_HEADING: Locator;
+    readonly DASHBOARD_HEADING: Locator;
 
     constructor(page: Page, context: BrowserContext) {
         this.page = page;
@@ -20,8 +20,8 @@ export class LoginPage {
         this.USERNAME_EDITBOX = page.locator('#username');
         this.PASSWORD_EDITBOX = page.locator('#password');
         this.LOGIN_BUTTON = page.getByRole('button', { name: 'Sign In' });
-        this.DASHBOARD_BUTTON = page.getByRole('button', { name: 'Dashboard' });
-        this.WELCOME_HEADING = page.getByRole('heading', { name: /Welcome,\s*.+!/ });
+        this.DASHBOARD_BUTTON = page.getByRole('button', { name: /Dashboard/i }).first();
+        this.DASHBOARD_HEADING = page.getByRole('heading', { name: /Form Submitted|Visitor Traffic/i }).first();
     }
 
     async navigateToURL(): Promise<void> {
@@ -62,7 +62,7 @@ export class LoginPage {
     }
 
     async verifyUserLoggedIn(): Promise<void> {
-        await expect(this.WELCOME_HEADING).toBeVisible();
+        await expect(this.DASHBOARD_HEADING).toBeVisible();
         await expect(this.DASHBOARD_BUTTON).toBeVisible();
     }
 
