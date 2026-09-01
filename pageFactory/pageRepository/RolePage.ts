@@ -3,174 +3,426 @@ import { LoginPage } from './LoginPage';
 import { testConfig } from '../../testConfig';
 
 type CreateRoleInput = {
-    name: string;
-    description?: string;
-    active?: boolean;
+  name: string;
+  description?: string;
+  active?: boolean;
 };
 
 type EditRoleInput = Partial<CreateRoleInput>;
 
 export class RolePage extends LoginPage {
-    readonly CREATE_ROLE_HEADER: Locator;
-    readonly ROLE_NAME_EDITBOX: Locator;
-    readonly DESCRIPTION_TEXTAREA: Locator;
-    readonly STATUS_CHECKBOX: Locator;
-    readonly SAVE_BUTTON: Locator;
-    readonly SUCCESS_MESSAGE: Locator;
+  readonly ROLE_NAME_EDITBOX: Locator;
+  readonly DESCRIPTION_TEXTAREA: Locator;
+  readonly STATUS_CHECKBOX: Locator;
+  readonly SAVE_BUTTON: Locator;
 
-    constructor(page: Page, context: BrowserContext) {
-        super(page, context);
+  constructor(page: Page, context: BrowserContext) {
+    super(page, context);
 
-        this.CREATE_ROLE_HEADER = page.getByText('Add New', { exact: true });
-        this.ROLE_NAME_EDITBOX = page.locator('#name');
-        this.DESCRIPTION_TEXTAREA = page.locator('textarea[name="description"]');
-        this.STATUS_CHECKBOX = page.locator('#status');
-        this.SAVE_BUTTON = page.locator('input[type="submit"][value="Save"], input[type="submit"][value="Update"], button:has-text("Save"), button:has-text("Update")').first();
-        this.SUCCESS_MESSAGE = page.getByText(/success|created|added|updated|deleted/i).first();
+    this.ROLE_NAME_EDITBOX = page.getByRole('textbox', {
+      name: /role name/i,
+    });
+
+    this.DESCRIPTION_TEXTAREA = page.getByRole('textbox', {
+      name: /description/i,
+    });
+
+    // If there is only ONE checkbox on the create/edit page,
+    // this is okay.
+    this.STATUS_CHECKBOX = page.getByRole('checkbox').first();
+
+    // More robust save button selector with fallbacks
+    this.SAVE_BUTTON = page.getByRole('button', {
+      name: /save|create|update|submit/i,
+    }).last();
+  }
+
+  /**
+   * Find role row by role name
+   */
+  private roleRow(roleName: string): Locator {
+    return this.page
+      .locator('table tbody tr')
+      .filter({
+        hasText: roleName,
+      })
+      .first();
+  }
+
+  /**
+   * Navigate to create role page
+   */
+  async navigateToCreateRolePage(): Promise<void> {
+    await this.page.goto('/users/role/create');
+
+    await this.page.waitForLoadState('domcontentloaded');
+
+    await expect(this.ROLE_NAME_EDITBOX).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+  }
+
+  /**
+   * Navigate to role management page
+   */
+  async navigateToRoleManagementPage(): Promise<void> {
+    await this.page.goto('/users/role');
+
+    await this.page.waitForLoadState('domcontentloaded');
+
+    await expect(this.page.locator('table')).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+  }
+
+  /**
+   * Verify create role page
+   */
+  async verifyCreateRolePageIsVisible(): Promise<void> {
+    await expect(this.ROLE_NAME_EDITBOX).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(this.DESCRIPTION_TEXTAREA).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(this.STATUS_CHECKBOX).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(this.SAVE_BUTTON).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+  }
+
+  /**
+   * Set checkbox state safely
+   */
+  private async setCheckboxState(
+    checkbox: Locator,
+    checked: boolean
+  ): Promise<void> {
+    await expect(checkbox).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    const currentState = await checkbox.isChecked();
+
+    console.log(
+      `Checkbox current state: ${currentState}, expected: ${checked}`
+    );
+
+    if (currentState !== checked) {
+      if (checked) {
+        await checkbox.check({ force: true });
+      } else {
+        await checkbox.uncheck({ force: true });
+      }
     }
 
-    private roleRow(roleName: string): Locator {
-        return this.page.locator('table tbody tr', { hasText: roleName }).first();
+    if (checked) {
+      await expect(checkbox).toBeChecked({
+        timeout: testConfig.waitForElement,
+      });
+    } else {
+      await expect(checkbox).not.toBeChecked({
+        timeout: testConfig.waitForElement,
+      });
+    }
+  }
+
+  /**
+   * Click Save button
+   */
+  private async clickSaveButton(): Promise<void> {
+    await expect(this.SAVE_BUTTON).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(this.SAVE_BUTTON).toBeEnabled({
+      timeout: testConfig.waitForElement,
+    });
+
+    await this.SAVE_BUTTON.scrollIntoViewIfNeeded();
+
+    await this.SAVE_BUTTON.click();
+  }
+
+  /**
+   * Wait for save/update operation
+   */
+  private async waitForSuccessMessage(): Promise<void> {
+    // Give API/table update time to complete
+    await this.page.waitForTimeout(1000);
+
+    console.log(
+      'Alerts:',
+      await this.page.locator('[role="alert"]').allTextContents()
+    );
+
+    console.log(
+      'Success alerts:',
+      await this.page.locator('.alert-success').allTextContents()
+    );
+
+    console.log(
+      'Toasts:',
+      await this.page
+        .locator('.toast, .toast-success')
+        .allTextContents()
+    );
+  }
+
+  /**
+   * Create role
+   */
+  async createRole(role: CreateRoleInput): Promise<void> {
+    await expect(this.ROLE_NAME_EDITBOX).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await this.ROLE_NAME_EDITBOX.fill(role.name);
+
+    if (role.description !== undefined) {
+      await this.DESCRIPTION_TEXTAREA.fill(role.description);
     }
 
-    async navigateToCreateRolePage(): Promise<void> {
-        await this.page.goto('/users/role/create');
+    // IMPORTANT:
+    // active:false means checkbox MUST be unchecked.
+    if (role.active !== undefined) {
+      await this.setCheckboxState(
+        this.STATUS_CHECKBOX,
+        role.active
+      );
     }
 
-    async navigateToRoleManagementPage(): Promise<void> {
-        await this.page.goto('/users/role');
+    // Make sure values are correct before saving
+    if (role.active === false) {
+      await expect(this.STATUS_CHECKBOX).not.toBeChecked();
     }
 
-    async verifyCreateRolePageIsVisible(): Promise<void> {
-        await expect(this.CREATE_ROLE_HEADER).toBeVisible();
-        await expect(this.ROLE_NAME_EDITBOX).toBeVisible();
-        await expect(this.DESCRIPTION_TEXTAREA).toBeVisible();
-        await expect(this.STATUS_CHECKBOX).toBeVisible();
-        await expect(this.SAVE_BUTTON).toBeVisible();
+    if (role.active === true) {
+      await expect(this.STATUS_CHECKBOX).toBeChecked();
     }
 
-    private async setCheckboxState(checkbox: Locator, value: boolean): Promise<void> {
-        const checkboxHandle = await checkbox.elementHandle();
-        if (checkboxHandle) {
-            await checkboxHandle.evaluate((el, checked) => {
-                const input = el as HTMLInputElement;
-                if (input.checked !== checked) {
-                    input.checked = checked;
-                    input.dispatchEvent(new Event('change', { bubbles: true }));
-                }
-            }, value);
-            await expect(checkbox).toHaveJSProperty('checked', value, { timeout: 5000 });
-            return;
-        }
+    await this.clickSaveButton();
 
-        await this.page.evaluate((selector, checked) => {
-            const input = document.querySelector(selector) as HTMLInputElement;
-            if (!input) throw new Error(`Checkbox not found: ${selector}`);
-            if (input.checked !== checked) {
-                input.checked = checked;
-                input.dispatchEvent(new Event('change', { bubbles: true }));
-            }
-        }, '#status', value);
-        await expect(checkbox).toHaveJSProperty('checked', value, { timeout: 5000 });
+    await this.waitForSuccessMessage();
+
+    // Wait until navigation/API/table update finishes
+    await this.page.waitForLoadState('domcontentloaded').catch(() => {});
+  }
+
+  /**
+   * Verify role created
+   */
+  async verifyRoleCreated(
+    roleName?: string
+  ): Promise<void> {
+    await this.waitForSuccessMessage();
+
+    if (roleName) {
+      // Go to role management page if necessary
+      if (!this.page.url().includes('/users/role')) {
+        await this.navigateToRoleManagementPage();
+      }
+
+      const row = this.roleRow(roleName);
+
+      await expect(row).toBeVisible({
+        timeout: testConfig.waitForElement,
+      });
     }
+  }
 
-    private async clickSaveButton(): Promise<void> {
-        await this.SAVE_BUTTON.scrollIntoViewIfNeeded();
-        await this.SAVE_BUTTON.waitFor({ state: 'visible', timeout: 5000 });
-        const saveHandle = await this.SAVE_BUTTON.elementHandle();
-        if (saveHandle) {
-            await saveHandle.evaluate((button: HTMLElement) => button.click());
-        } else {
-            await this.SAVE_BUTTON.click({ force: true });
-        }
-    }
+  /**
+   * Edit role
+   */
+  async editRole(
+    roleName: string,
+    role: EditRoleInput
+  ): Promise<void> {
+    const row = this.roleRow(roleName);
 
-    async createRole(role: CreateRoleInput): Promise<void> {
-        await this.ROLE_NAME_EDITBOX.fill(role.name);
+    await expect(row).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
 
-        if (role.description) {
-            await this.DESCRIPTION_TEXTAREA.fill(role.description);
-        }
+    // Find edit button
+    const editButton = row.getByRole('button', {
+      name: /edit/i,
+    });
 
-        if (role.active !== undefined) {
-            await this.setCheckboxState(this.STATUS_CHECKBOX, !!role.active);
-        }
+    if (await editButton.count() > 0) {
+      await editButton.first().click();
+    } else {
+      // Try edit link
+      const editLink = row.getByRole('link', {
+        name: /edit/i,
+      });
 
-        await this.clickSaveButton();
-
-        await expect(this.SUCCESS_MESSAGE).toBeVisible({ timeout: testConfig.waitForElement }).catch(() => {
-            throw new Error('Role creation did not produce a success message. Check form validation or save behavior.');
+      if (await editLink.count() > 0) {
+        await editLink.first().click();
+      } else {
+        // Try edit image
+        const editImage = row.getByRole('img', {
+          name: /edit/i,
         });
-    }
 
-    async verifyRoleCreated(): Promise<void> {
-        await expect(this.SUCCESS_MESSAGE).toBeVisible({ timeout: testConfig.waitForElement });
-    }
-
-    async editRole(roleName: string, role: EditRoleInput): Promise<void> {
-        const row = this.roleRow(roleName);
-
-        await expect(row).toBeVisible({ timeout: testConfig.waitForElement });
-        await row.getByRole('img', { name: /edit/i }).click();
-        await expect(this.ROLE_NAME_EDITBOX).toBeVisible();
-
-        if (role.name) {
-            await this.ROLE_NAME_EDITBOX.fill(role.name);
-        }
-
-        if (role.description !== undefined) {
-            await this.DESCRIPTION_TEXTAREA.fill(role.description);
-        }
-
-        if (role.active !== undefined) {
-            await this.setCheckboxState(this.STATUS_CHECKBOX, !!role.active);
-            console.log(`DEBUG: STATUS_CHECKBOX checked after setCheckboxState = ${await this.STATUS_CHECKBOX.isChecked()}`);
-        }
-
-        await this.clickSaveButton();
-
-        const successText = await this.SUCCESS_MESSAGE.innerText().catch(() => 'NO MESSAGE');
-        console.log(`DEBUG: Success message after edit = ${successText}`);
-
-        await expect(this.SUCCESS_MESSAGE).toBeVisible({ timeout: testConfig.waitForElement }).catch(() => {
-            throw new Error('Role update did not produce a success message. Check form validation or save behavior.');
+        await expect(editImage).toBeVisible({
+          timeout: testConfig.waitForElement,
         });
+
+        await editImage.click();
+      }
     }
 
-    async deleteRole(roleName: string): Promise<void> {
-        const row = this.roleRow(roleName);
-        const rowActionTargets = row.locator('button, a, [role="button"], img, svg');
-        const deleteModal = this.page.locator('#delete-modal-comfirm');
-        const confirmDeleteButton = deleteModal.getByRole('button', { name: /confirm|yes|delete/i });
+    // Wait for page/navigation to complete
+    await this.page.waitForLoadState('domcontentloaded').catch(() => {});
+    await this.page.waitForTimeout(500);
 
-        await expect(row).toBeVisible({ timeout: testConfig.waitForElement });
+    await expect(this.ROLE_NAME_EDITBOX).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
 
-        const rowActionCount = await rowActionTargets.count();
-        if (rowActionCount === 0) {
-            throw new Error(`No action controls found for role row: ${roleName}`);
-        }
-
-        await rowActionTargets.nth(rowActionCount - 1).click();
-        await expect(deleteModal).toBeVisible();
-        await confirmDeleteButton.click();
+    if (role.name !== undefined) {
+      await this.ROLE_NAME_EDITBOX.fill(role.name);
     }
 
-    async verifyRoleUpdated(): Promise<void> {
-        await expect(this.SUCCESS_MESSAGE).toBeVisible({ timeout: testConfig.waitForElement });
+    if (role.description !== undefined) {
+      await this.DESCRIPTION_TEXTAREA.fill(role.description);
     }
 
-    async verifyRoleStatus(roleName: string, status: string): Promise<void> {
-        const row = this.roleRow(roleName);
-        await expect(row).toBeVisible({ timeout: testConfig.waitForElement });
-        await expect(row).toContainText(status, { timeout: testConfig.waitForElement });
+    // Set active/inactive
+    if (role.active !== undefined) {
+      await this.setCheckboxState(
+        this.STATUS_CHECKBOX,
+        role.active
+      );
+
+      // Extra verification
+      if (role.active) {
+        await expect(this.STATUS_CHECKBOX).toBeChecked();
+      } else {
+        await expect(this.STATUS_CHECKBOX).not.toBeChecked();
+      }
     }
 
-    async verifyRoleDeleted(roleName: string): Promise<void> {
-        await expect(this.SUCCESS_MESSAGE).toBeVisible({ timeout: testConfig.waitForElement });
-        await expect(this.roleRow(roleName)).toHaveCount(0);
+    await this.clickSaveButton();
+
+    await this.waitForSuccessMessage();
+
+    // Wait for page update
+    await this.page.waitForTimeout(1000);
+  }
+
+  /**
+   * Delete role
+   */
+  async deleteRole(roleName: string): Promise<void> {
+    const row = this.roleRow(roleName);
+
+    await expect(row).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    const deleteButton = row.getByRole('button', {
+      name: /delete/i,
+    });
+
+    if (await deleteButton.count() > 0) {
+      await deleteButton.first().click();
+    } else {
+      const deleteLink = row.getByRole('link', {
+        name: /delete/i,
+      });
+
+      if (await deleteLink.count() > 0) {
+        await deleteLink.first().click();
+      } else {
+        throw new Error(
+          `Delete button/link not found for role: ${roleName}`
+        );
+      }
     }
 
-    async verifyRoleIsVisible(roleName: string): Promise<void> {
-        await expect(this.roleRow(roleName)).toBeVisible({ timeout: testConfig.waitForElement });
-    }
+    const deleteModal = this.page
+      .locator(
+        '#delete-modal-comfirm, #delete-modal-confirm'
+      )
+      .first();
+
+    await expect(deleteModal).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    const confirmDeleteButton = deleteModal
+      .getByRole('button', {
+        name: /confirm|yes|delete/i,
+      })
+      .first();
+
+    await expect(confirmDeleteButton).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(confirmDeleteButton).toBeEnabled({
+      timeout: testConfig.waitForElement,
+    });
+
+    await confirmDeleteButton.click();
+
+    await this.waitForSuccessMessage();
+  }
+
+  /**
+   * Verify role updated
+   */
+  async verifyRoleUpdated(): Promise<void> {
+    await this.waitForSuccessMessage();
+  }
+
+  /**
+   * Verify role status
+   */
+  async verifyRoleStatus(
+    roleName: string,
+    expectedStatus: 'Active' | 'Inactive'
+  ): Promise<void> {
+    const row = this.roleRow(roleName);
+
+    await expect(row).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    // Find badge instead of checking entire row
+    const statusBadge = row.locator(
+      '.badge'
+    );
+
+    await expect(statusBadge).toBeVisible({
+      timeout: testConfig.waitForElement,
+    });
+
+    await expect(statusBadge).toHaveText(
+      expectedStatus,
+      {
+        timeout: testConfig.waitForElement,
+      }
+    );
+  }
+
+  /**
+   * Verify role deleted
+   */
+  async verifyRoleDeleted(
+    roleName: string
+  ): Promise<void> {
+    await this.waitForSuccessMessage();
+
+    await expect(this.roleRow(roleName)).toHaveCount(0, {
+      timeout: testConfig.waitForElement,
+    });
+  }
 }

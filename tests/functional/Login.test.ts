@@ -1,4 +1,3 @@
-
 import test from '../../lib/BaseTest';
 
 test('Verify web-admin Login @Smoke', async ({ loginPage }: { loginPage: any }) => {

@@ -1,5 +1,7 @@
 import { TestInfo, test as baseTest, Page, BrowserContext } from '@playwright/test';
 import { CreateUserPage } from '../pageFactory/pageRepository/CreateUserPage';
+// import { BrandPage } from '../pageFactory/pageRepository/BrandPage';
+import { BrandPage} from '../pageFactory/pageRepository/BrandPage';
 import { LoginPage } from '../pageFactory/pageRepository/LoginPage';
 import { RolePage } from '../pageFactory/pageRepository/RolePage';
 import { WebActions } from './WebActions';
@@ -8,8 +10,9 @@ import AxeBuilder from '@axe-core/playwright';
 const test = baseTest.extend<{
     webActions: WebActions;
     loginPage: LoginPage;
-     CreateUserPage: CreateUserPage;
+    CreateUserPage: CreateUserPage;
     RolePage: RolePage;
+    BrandPage:BrandPage;
     makeAxeBuilder: AxeBuilder;
     testInfo: TestInfo;
 }>({
@@ -22,6 +25,10 @@ const test = baseTest.extend<{
     CreateUserPage: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
         await use(new CreateUserPage(page, context));
     },
+    BrandPage: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
+        await use(new BrandPage(page, context));
+    },
+   
     RolePage: async ({ page, context }: { page: Page; context: BrowserContext }, use) => {
         await use(new RolePage(page, context));
     },

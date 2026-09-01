@@ -1,0 +1,26 @@
+============================================
+Icon path: C:\Users\Song Koev\OneDrive\Documents\playwright-typescript-playwright-test\test-data\img\Hyundia.svg
+File exists: true
+============================================
+Edit brand skipped: Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('row', { name: /Wow Brand 1788232527404/i })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByRole('row', { name: /Wow Brand 1788232527404/i })
+
+Brand list verification skipped: Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('row', { name: /Updated Brand 1788232527404/i })
+Expected: visible
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 10000ms
+  - waiting for getByRole('row', { name: /Updated Brand 1788232527404/i })
+

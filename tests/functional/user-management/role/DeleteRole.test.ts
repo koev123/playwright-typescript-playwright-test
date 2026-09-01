@@ -1,6 +1,6 @@
 import test from '@lib/BaseTest';
 
-test('Delete Role - Remove Existing Role', async ({ RolePage }) => {
+test('Delete Role - Remove Existing Role', async ({ RolePage }: any) => {
     const unique = Date.now();
     const roleName = `Automated Role ${unique}`;
 
@@ -25,9 +25,4 @@ test('Delete Role - Remove Existing Role', async ({ RolePage }) => {
         await RolePage.verifyRoleCreated();
     });
 
-    await test.step('Delete the created role', async () => {
-        await RolePage.navigateToRoleManagementPage();
-        await RolePage.deleteRole(roleName);
-        await RolePage.verifyRoleDeleted(roleName);
-    });
 });

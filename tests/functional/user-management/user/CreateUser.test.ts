@@ -1,6 +1,6 @@
 import test from '@lib/BaseTest';
 
-test('Create User - Navigate to Add New User Page', async ({ CreateUserPage }) => {
+test('Create User - Navigate to Add New User Page', async ({ CreateUserPage }: any) => {
   const unique = Date.now();
   const staffId = `wow${unique}`;
   const phoneNumber = `09${unique.toString().slice(-8)}`;
@@ -33,5 +33,5 @@ test('Create User - Navigate to Add New User Page', async ({ CreateUserPage }) =
   });
   await test.step('Verify user created successfully', async () => {
     await CreateUserPage.verifyUserCreated(); // e.g. success toast or table entry
-});
+  });
 });

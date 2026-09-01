@@ -3714,3 +3714,1694 @@
 {"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
 {"level":"info","message":"Test Case Started : Verify Elements Page."}
 {"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : interrupted"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Create User Page"}
+{"level":"info","message":"Test Case Completed : Verify Create User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Create User Page"}
+{"level":"info","message":"Test Case Completed : Verify Create User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"error","message":"SyntaxError: C:\\Users\\Song Koev\\OneDrive\\Documents\\playwright-typescript-playwright-test\\pageFactory\\pageRepository\\RolePage.ts: Unexpected token (353:0)\n\n\u001b[0m \u001b[90m 351 |\u001b[39m     }\n \u001b[90m 352 |\u001b[39m   }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 353 |\u001b[39m }\n \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"SyntaxError: C:\\Users\\Song Koev\\OneDrive\\Documents\\playwright-typescript-playwright-test\\pageFactory\\pageRepository\\RolePage.ts: Unexpected token (353:0)\n\n\u001b[0m \u001b[90m 351 |\u001b[39m     }\n \u001b[90m 352 |\u001b[39m   }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 353 |\u001b[39m }\n \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"SyntaxError: C:\\Users\\Song Koev\\OneDrive\\Documents\\playwright-typescript-playwright-test\\pageFactory\\pageRepository\\RolePage.ts: Unexpected token (353:0)\n\n\u001b[0m \u001b[90m 351 |\u001b[39m     }\n \u001b[90m 352 |\u001b[39m   }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 353 |\u001b[39m }\n \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : failed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : failed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Executing Step : Delete the created role"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Create role to edit"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : interrupted"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Create role to edit"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"error","message":"SyntaxError: C:\\Users\\Song Koev\\OneDrive\\Documents\\playwright-typescript-playwright-test\\pageFactory\\pageRepository\\RolePage.ts: Unexpected token (341:9)\n\n\u001b[0m \u001b[90m 339 |\u001b[39m \u001b[90m   * Verify role status\u001b[39m\n \u001b[90m 340 |\u001b[39m \u001b[90m   */\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 341 |\u001b[39m aprivate \u001b[36masync\u001b[39m setCheckboxState(\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 342 |\u001b[39m   checkbox\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 343 |\u001b[39m   checked\u001b[33m:\u001b[39m boolean\n \u001b[90m 344 |\u001b[39m )\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : interrupted"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"Test has unknown parameter \"CreateBrandPage\"."}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"error","message":"TypeError: (0 , _BaseTest.default) is not a function"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"error","message":"TypeError: (0 , _BaseTest.default) is not a function"}
+{"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : interrupted"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : interrupted"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Brand - Remove Existing Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to delete"}
+{"level":"info","message":"Executing Step : Delete the created brand"}
+{"level":"info","message":"Executing Step : Verify brand deleted successfully"}
+{"level":"info","message":"Test Case Completed : Delete Brand - Remove Existing Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Executing Step : Verify brand updated successfully"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Brand - Remove Existing Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to delete"}
+{"level":"info","message":"Executing Step : Delete the created brand"}
+{"level":"info","message":"Executing Step : Verify brand deleted successfully"}
+{"level":"info","message":"Test Case Completed : Delete Brand - Remove Existing Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Executing Step : Verify brand updated successfully"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : failed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : failed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : timedOut"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Create Post request using static body"}
+{"level":"info","message":"Test Case Completed : Create Post request using static body Status : skipped"}
+{"level":"info","message":"Test Case Started : test"}
+{"level":"info","message":"Test Case Completed : test Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postLogin"}
+{"level":"info","message":"Test Case Completed : postLogin Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : skipped"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : skipped"}
+{"level":"info","message":"Test Case Started : Create Brand - Create New Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New Brand page"}
+{"level":"info","message":"Executing Step : Fill and submit create brand form"}
+{"level":"info","message":"Executing Step : Verify brand created successfully"}
+{"level":"info","message":"Test Case Completed : Create Brand - Create New Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Brand - Remove Existing Brand"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to delete"}
+{"level":"info","message":"Executing Step : Delete the created brand"}
+{"level":"info","message":"Executing Step : Verify brand deleted successfully"}
+{"level":"info","message":"Test Case Completed : Delete Brand - Remove Existing Brand Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Brand - Update Existing Brand Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a brand to edit"}
+{"level":"info","message":"Executing Step : Edit the created brand"}
+{"level":"info","message":"Executing Step : Verify brand updated successfully"}
+{"level":"info","message":"Test Case Completed : Edit Brand - Update Existing Brand Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify web-admin Login @Smoke"}
+{"level":"info","message":"Executing Step : Navigate to web-admin login page"}
+{"level":"info","message":"Executing Step : Verify login page is displayed"}
+{"level":"info","message":"Executing Step : Enter valid username"}
+{"level":"info","message":"Executing Step : Enter valid password"}
+{"level":"info","message":"Executing Step : Click on login button"}
+{"level":"info","message":"Executing Step : Verify user is successfully logged in"}
+{"level":"info","message":"Test Case Completed : Verify web-admin Login @Smoke Status : passed"}
+{"level":"info","message":"Test Case Started : Create Role - Add a New Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Create Role page"}
+{"level":"info","message":"Executing Step : Fill and submit create role form"}
+{"level":"info","message":"Executing Step : Verify role created successfully"}
+{"level":"info","message":"Test Case Completed : Create Role - Add a New Role Status : passed"}
+{"level":"info","message":"Test Case Started : Delete Role - Remove Existing Role"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to delete"}
+{"level":"info","message":"Test Case Completed : Delete Role - Remove Existing Role Status : passed"}
+{"level":"info","message":"Test Case Started : Edit Role - Update Existing Role Details"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Create a role to edit"}
+{"level":"info","message":"Executing Step : Edit the created role"}
+{"level":"info","message":"Executing Step : Verify updated role is visible"}
+{"level":"info","message":"Test Case Completed : Edit Role - Update Existing Role Details Status : passed"}
+{"level":"info","message":"Test Case Started : Create User - Navigate to Add New User Page"}
+{"level":"info","message":"Executing Step : Navigate to login page"}
+{"level":"info","message":"Executing Step : Login to system"}
+{"level":"info","message":"Executing Step : Navigate to Add New User page"}
+{"level":"info","message":"Executing Step : Fill and submit create user form"}
+{"level":"info","message":"Executing Step : Verify user created successfully"}
+{"level":"info","message":"Test Case Completed : Create User - Navigate to Add New User Page Status : passed"}
+{"level":"info","message":"Test Case Started : Delete User - Remove Existing User"}
+{"level":"info","message":"Executing Step : Create a user to delete"}
+{"level":"info","message":"Executing Step : Delete the created user"}
+{"level":"info","message":"Test Case Completed : Delete User - Remove Existing User Status : passed"}
+{"level":"info","message":"Test Case Started : Edit User - Update Existing User Details"}
+{"level":"info","message":"Executing Step : Create a user to edit"}
+{"level":"info","message":"Executing Step : Edit the created user"}
+{"level":"info","message":"Test Case Completed : Edit User - Update Existing User Details Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : passed"}

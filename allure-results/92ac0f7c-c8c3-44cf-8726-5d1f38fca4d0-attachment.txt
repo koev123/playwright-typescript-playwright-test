@@ -1,0 +1,14 @@
+Checkbox current state: true, expected: false
+Alerts: []
+Success alerts: []
+Toasts: []
+Alerts: []
+Success alerts: []
+Toasts: []
+Checkbox current state: false, expected: true
+Alerts: []
+Success alerts: []
+Toasts: []
+Alerts: []
+Success alerts: []
+Toasts: []

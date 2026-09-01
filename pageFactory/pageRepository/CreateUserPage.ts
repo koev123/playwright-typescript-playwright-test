@@ -16,6 +16,7 @@ type CreateUserInput = {
 type EditUserInput = Partial<CreateUserInput>;
 
 export class CreateUserPage extends LoginPage {
+    
     readonly STAFFID_EDITBOX: Locator;
     readonly FULLNAME_EDITBOX: Locator;
     readonly USERNAME_EDITBOX: Locator;
@@ -29,7 +30,6 @@ export class CreateUserPage extends LoginPage {
     readonly SAVE_BUTTON: Locator;
     readonly ADD_NEW_USER_BUTTON: Locator;
     readonly USER_MANAGEMENT_BUTTON: Locator;
-
     readonly CREATE_USER_HEADER: Locator;
     readonly SUCCESS_MESSAGE: Locator;
 
@@ -92,9 +92,20 @@ export class CreateUserPage extends LoginPage {
     }
 
     async createUser(user: CreateUserInput): Promise<void> {
-        await this.STAFFID_EDITBOX.fill(user.staffId);
-        await this.page.keyboard.press('Tab');
-        await expect(this.STAFFID_EDITBOX).toHaveValue(user.staffId);
+        // Wait for staff ID field to be stable
+        await expect(this.STAFFID_EDITBOX).toBeVisible({ timeout: testConfig.waitForElement });
+        await this.page.waitForTimeout(500); // Let UI settle
+        
+        // Clear and fill staff ID using click + type method
+        await this.STAFFID_EDITBOX.click();
+        await this.page.keyboard.press('Control+A');
+        await this.page.keyboard.type(user.staffId, { delay: 50 });
+        await this.page.waitForTimeout(300);
+        
+        // Verify staff ID was filled
+        await expect(this.STAFFID_EDITBOX).toHaveValue(user.staffId, { timeout: 5000 });
+        
+        // Fill remaining fields
         await this.FULLNAME_EDITBOX.fill(user.fullName);
         await this.USERNAME_EDITBOX.fill(user.username);
         await this.PHONENUMBER_EDITBOX.fill(user.phoneNumber);
@@ -107,7 +118,7 @@ export class CreateUserPage extends LoginPage {
         }
         await this.SAVE_BUTTON.click();
         // wait for success message (use generous timeout from config)
-        await expect(this.SUCCESS_MESSAGE.first()).toBeVisible({ timeout: testConfig.waitForElement }).catch(() => {
+        await expect(this.SUCCESS_MESSAGE.first()).toBeVisible().catch(() => {
             throw new Error('User creation did not produce a success message. Check form validation or save behavior.');
         });
     }

@@ -1,2 +1,0 @@
-DEBUG: STATUS_CHECKBOX checked after setCheckboxState = false
-DEBUG: Success message after edit = Success
